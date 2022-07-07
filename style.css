@@ -1,0 +1,166 @@
+/* shapes */
+* {margin 0; padding: 0; }
+
+@keyframes example1 {
+    0% {border-right-color: lightgray;}
+    25% {border-right-color: gray;}
+    50% {border-right-color: red;}
+    75% {border-right-color: orange;}
+    100% {border-right-color: white;}
+    }
+
+.up-left{
+    position: relative;
+    left: 200px;
+    bottom: 190px;
+    border: 180px solid transparent;
+    border-right-color: lightgray;
+    width: 0;
+    height:0;
+    transform: rotate(45deg);
+    animation-name: example1;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    0% {border-right-color: red;}
+    25% {border-right-color: orange;}
+    50% {border-right-color: lightgrey;}
+    75% {border-right-color:  black;}
+    100% {border-right-color:  white;}
+    }
+
+.black-triangle{
+    position: relative;
+    bottom: 420px;
+    right: 100px;
+    border: 300px solid transparent;
+    border-right-color: black;
+    padding: 90px;
+    width: 0;
+    height: 0;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+    0% {border-left-color: orange;}
+    25% {border-left-color: red}
+    50% {border-left-color: antiquewhite}
+    75% {border-left-color: lightgrey;}
+    100% {border-left-color: white;}
+    0% {border-bottom-color: antiquewhite;}
+    25% {border-bottom-color: orange;}
+    50% {border-bottom-color: black;}
+    75% {border-bottom-color: gray;}
+    100% {border-bottom-color: white;}
+    }
+
+.bottom-left{
+    position: relative;
+    left: 380px;
+    bottom: 720px;
+    border: 150px solid transparent;
+    border-left-color: orange;
+    border-bottom-color: antiquewhite;
+    width: 0;
+    height: 0;
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example4 {
+    0% {border-left-color: antiquewhite;}
+    25% {border-left-color: lightgray;}
+    50% {border-left-color: red;}
+    75% {border-left-color:  orange;}
+    100% {border-left-color: white;}
+    }
+
+.light-grey{
+    position: relative;
+    bottom: 1550px;
+    left: 680px;
+    border: 280px solid transparent;
+    border-left-color: antiquewhite;
+    width: 0;
+    height: 0;
+    animation-name: example4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example5 {
+    0% {border-top-color: grey;}
+    25% {border-top-color: orange;}
+    50% {border-top-color: black;}
+    75% {border-top-color:  antiquewhite;}
+    100% {border-top-color:  white;}
+    }
+
+.dark-grey{
+    position: relative;
+    bottom: 2030px;
+    left: 760px;
+    border: 200px solid transparent;
+    border-top-color: grey;
+    width: 0;
+    height:0;
+    animation-name: example5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example6 {
+    0% {border-right-color: red;}
+    25% {border-right-color: gray;}
+    50% {border-right-color: antiquewhite;}
+    75% {border-right-color:  orange;}
+    100% {border-right-color:  white;}
+    }
+
+.red{
+    position: relative;
+    bottom: 2420px;
+    left: 210px;
+    border: 470px solid transparent;
+    border-right-color: red;
+    width: 0;
+    height: 0;
+    animation-name: example6;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example7 {
+    0% {border-left-color: lightgrey;}
+    25% {border-left-color: red;}
+    50% {border-left-color: orange;}
+    75% {border-left-color:  black;}
+    100% {border-left-color:  white;}
+    }
+
+.grey{
+    position: relative;
+    bottom: 2890px;
+    left: 680px;
+    border: 280px solid transparent;
+    border-left-color: lightgrey;
+    width: 0;
+    height: 0;
+    animation-name: example7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.white{
+    position: relative;
+    bottom: 3180px;
+    left: 680px;
+    width: 480px;
+    height: 300px;
+    background-color: white;
+}
